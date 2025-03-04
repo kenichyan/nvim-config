@@ -1,0 +1,7 @@
+vim.cmd("autocmd!")
+
+vim.scriptencoding = "utf-8"
+<<<<<<< HEAD
+
+=======
+>>>>>>> f7ea912de2452adbbfa73295be5d6ddd480ba5c2

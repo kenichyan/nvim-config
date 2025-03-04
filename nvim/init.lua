@@ -1,0 +1,7 @@
+require("config.lazy")
+require("config.base")
+require("config.autocmds")
+require("config.keymaps")
+require("config.colorscheme")
+require("config.options")
+require("config.lualine")
