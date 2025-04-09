@@ -42,6 +42,12 @@ vim.opt.splitbelow = false
 vim.opt.splitright = false
 vim.opt.shortmess:append("c")
 
+vim.opt.loaded_netrw = 1
+vim.opt.loaded_netrwPlugin = 1
+
+-- optionally enable 24-bit colour
+vim.opt.termguicolors = true
+
 vim.cmd("set whichwrap+=<,>,[,],h,l")
 vim.cmd([[set iskeyword+=-]])
 vim.cmd([[set formatoptions-=cro]]) -- TODO: this doesn't seem to work
