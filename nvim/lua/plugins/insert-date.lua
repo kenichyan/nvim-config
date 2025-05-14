@@ -1,6 +1,7 @@
 return {
   "kenichyan/insert-date",
-  lazy = false,
+  lazy = true,
+  cmd = { "Date" },
   config = function()
     require("insert-date").setup()
   end,
