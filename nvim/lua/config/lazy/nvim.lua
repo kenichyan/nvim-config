@@ -14,5 +14,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Load all plugin definitions in lua/plugins/*.lua
-require("lazy").setup("plugins")
-
+require("lazy").setup("plugins", {
+  checker = {
+    enabled = true,
+    notify = false,
+    frequency = 3600 * 24
+  }
+})
